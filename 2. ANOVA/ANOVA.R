@@ -21,8 +21,6 @@ summary(res5)
 #사후 검정 - Bonferroni t-test
 #factor1
 pairwise.t.test(aov_df$f1, aov_df$cluster, p.adjust.method = 'bonferroni')
-#factor2
-pairwise.t.test(aov_df$f2, aov_df$cluster, p.adjust.method = 'bonferroni')
 #factor4
 pairwise.t.test(aov_df$f4, aov_df$cluster, p.adjust.method = 'bonferroni')
 #factor5
